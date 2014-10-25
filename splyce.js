@@ -14,8 +14,7 @@ function getSongs(){
 			console.log(request.responseText);
 		}
 	}
-	request.send("api_key="+apiKey+"&name=Weezer");
-	
+	request.send("api_key="+apiKey+"&name=Weezer");	
 }
 
 function printSongs(){
