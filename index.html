@@ -7,9 +7,8 @@
 
     <!--Link to CSS-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-    <script>
-
-    </script>
+    <SCRIPT SRC="splyce.js"></SCRIPT>
+	<SCRIPT SRC="Remix.js"></SCRIPT>
   </head>
   
 
@@ -17,7 +16,11 @@
   	<div id = "container">
   		
   		<!--ENTER ARTIST-->
-  		<section>
+  		<section id = "artist_section">
+  			<form>
+  				Enter Artist: <input type = "text" name = "artist" id = "artist"> 
+  							  <input id = "search" type = "button" value = "Search" onclick = 'getSongs()'/><br>
+  			</form>
   		</seciton>
 
   		<!--ENTER SONG-->
@@ -29,7 +32,8 @@
   		</section>
 
   		<!--SPLYCE IT (some button)->
-  		
+
+
 
   	</div>
   </body>

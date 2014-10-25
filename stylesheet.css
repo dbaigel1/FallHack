@@ -1,5 +1,37 @@
+body{
+	margin: 0; 
+}
+
 div#container{
 	height: 1300px;
 	width: 1440px;
-	background-image: url(music.jpg);
+	/*background-image: url(music.jpg);*/
+	background-color: lightpink;
 }
+
+section#artist_section{
+	height: 100px;
+	width: 600px;
+	background-color: lightgreen;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+	text-align: center;
+	font-size: 24px;
+}
+
+/*Artist Form*/
+#artist{
+	width: 140px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#search{
+	color: purple;
+  	font-weight: bold;
+  	background-color: lightblue;
+}
+
+
+
