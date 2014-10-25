@@ -82,8 +82,4 @@ window.onload = init;
 </script>
 
 Welcome to One.html
-<div id='info'> </div>
-<!-- These buttons will play and stop your remix.  -->
-<button onClick="player.play(0, remixed);">Play!</button>
-<button onClick="player.stop()">Stop!</button>
-</body>
+

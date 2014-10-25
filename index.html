@@ -7,12 +7,17 @@
 
     <!--Link to CSS-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-    <SCRIPT SRC="splyce.js"></SCRIPT>
-	<SCRIPT SRC="Remix.js"></SCRIPT>
+    
+    <script SRC="splyce.js"> </script>
+	<script SRC="Remix.js"> </script>
+
+	<script type="text/javascript" src = "jquery.js"></script>
+	<script type="text/javascript" src = "Remix.js"></script>
+	<script type="text/javascript" src = "splice_script.js"></script>
+
   </head>
   
 
-  <body>
   	<div id = "container">
   		
   		<!--ENTER ARTIST-->
@@ -24,14 +29,23 @@
   		</seciton>
 
   		<!--ENTER SONG-->
-  		<section>
+  		<section id = "song_section">
+
   		</section>
 
   		<!--ENTER GENRE-->
-  		<section>
+  		<section id = "genre_section">
+  			<!--Enter Genre: <input type = "text" name = "" id = "">-->
   		</section>
+  		
+  		<div id='info'> 
+		<!-- These buttons will play and stop your remix.  -->
+		<button onClick="player.play(0, remixed);">Play!</button>
+		<button onClick="player.stop()">Stop!</button>
+		</div>
 
-  		<!--SPLYCE IT (some button)->
+
+  		<!--SPLYCE IT (some button)-->
 
 
 

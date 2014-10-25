@@ -4,8 +4,8 @@
 */
     // These are the things you need:  an API key, the track ID, and the path to the track
     var apiKey = 'JYT16WJLIG6YRMXXT';
-    var trackID = 'THE_TRACK_ID';
-    var trackURL = 'audio/THE_AUDIO_FILE.mp3'
+    var trackID = '';
+    var trackURL = 'https://soundcloud.com/martingarrix/martin-garrix-animals-original'
 
     // Set up the key variables
     var remixer;
@@ -57,10 +57,10 @@ function init() {
         });
     }
 }
-/*
+
 // Run the main function once the page is loaded.
 window.onload = init;
-</script>
+/*</script>
 
 Welcome to One.html
 <div id='info'> </div>
