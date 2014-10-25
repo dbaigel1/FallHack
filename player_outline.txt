@@ -1,5 +1,6 @@
 player_outline.txt
 
+/* URL: http://www.schillmania.com/projects/soundmanager2/
 //ON SETUP SOUNDMANAGER
 soundManager.setup({
 
@@ -40,7 +41,22 @@ demo2Sound.play({
   volume: 50
 });
 
-//STILL NEED MP3 GETTER THIS WORKS?
-<div class="ui360">
-    <a type="audio/mp3" href="https://api.soundcloud.com/tracks/49349198/stream?client_id=YOUR_CLIENT_ID" data-title="Track title">play "an.mp3"</a>
-</div>
+
+*/
+
+/* URL: http://www.schillmania.com/projects/soundmanager2/doc/getstarted/index.html
+//STILL NEED MP3 GETTER THIS WORKS? Take from youtube?
+
+<script>
+soundManager.setup({
+  url: '/path/to/swf-files/',
+  flashVersion: 9, // optional: shiny features (default = 8)
+  // optional: ignore Flash where possible, use 100% HTML5 mode
+  // preferFlash: false,
+  onready: function() {
+    // Ready to use; soundManager.createSound() etc. can now be called.
+  }
+});
+</script>
+
+*/
