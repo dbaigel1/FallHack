@@ -1,11 +1,13 @@
-/*
+
 <body>
 <script>
-*/
+
     // API key, the track ID, and the path to the track
     var apiKey = 'JYT16WJLIG6YRMXXT';
     var trackID_1 = 'THE_TRACK_ID';
-    var trackURL_1 = 'audio/THE_AUDIO_FILE.mp3'
+    var trackURL_1 = 'https://soundcloud.com/hardwell/hardwell-spaceman-out-now'
+    var trackID_2 = 'THE_TRACK_ID';
+    var trackURL_2 = 'https://soundcloud.com/martingarrix/martin-garrix-animals-original'
 
     // Set up the key variables
     var remixer;
@@ -74,7 +76,7 @@ function init() {
         });
     }
 }
-/*
+
 // Run the main function once the page is loaded.
 window.onload = init;
 </script>
@@ -85,4 +87,3 @@ Welcome to One.html
 <button onClick="player.play(0, remixed);">Play!</button>
 <button onClick="player.stop()">Stop!</button>
 </body>
-*/
